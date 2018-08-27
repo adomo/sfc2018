@@ -97,7 +97,7 @@ class MyApp extends PolymerElement {
           <app-header slot="header" condenses="" reveals="" effects="waterfall">
             <app-toolbar>
               <paper-icon-button icon="my-icons:menu" drawer-toggle=""></paper-icon-button>
-              <div main-title="">Dublin Diocese Pilgrimage to lourdes S&FC 2018</div>
+              <div main-title="">Dublin Diocese Pilgrimage to Lourdes S&FC 2018</div>
             </app-toolbar>
           </app-header>
 
