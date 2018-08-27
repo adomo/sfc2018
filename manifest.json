@@ -1,6 +1,6 @@
 {
-  "name": "My App",
-  "short_name": "My App",
+  "name": "LDublin Diocese Pilgrimage to Llourdes S&FC 2018",
+  "short_name": "S&FC 2018",
   "description": "My App description",
   "icons": [
     {
@@ -16,6 +16,6 @@
   ],
   "start_url": "/",
   "display": "standalone",
-  "theme_color": "#3f51b5",
-  "background_color": "#3f51b5"
+  "theme_color": "#e1ebee",
+  "background_color": "#e1ebee"
 }
