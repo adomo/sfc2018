@@ -137,8 +137,8 @@ class MyApp extends PolymerElement {
      // If no page was found in the route data, page will be an empty string.
      // Show 'masses' in that case. And if the page doesn't exist, show 'view404'.
     if (!page) {
-      this.page = 'masses';
-    } else if (['masses', 'ceremonies', 'parties'].indexOf(page) !== -1) {
+      this.page = 'duties';
+    } else if (['duties', 'masses', 'ceremonies', 'parties'].indexOf(page) !== -1) {
       this.page = page;
     } else {
       this.page = 'view404';
