@@ -32,4 +32,4 @@ class Duties extends PolymerElement {
   }
 }
 
-window.customElements.define('duties', Masses);
+window.customElements.define('duties', Duties);

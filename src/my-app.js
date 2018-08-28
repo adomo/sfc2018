@@ -102,7 +102,7 @@ class MyApp extends PolymerElement {
           </app-header>
 
           <iron-pages selected="[[page]]" attr-for-selected="name" role="main">
-            <duties name=""duties"></duties>
+            <duties name="duties"></duties>
             <masses name="masses"></masses>
             <ceremonies name="ceremonies"></ceremonies>
             <parties name="parties"></parties>
