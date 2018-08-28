@@ -1,12 +1,12 @@
-import * as functions from 'firebase-functions';
-import * as admin from 'firebase-admin';
-import * as request from 'request-promise';
+const functions = require('firebase-functions');
+const admin = require('firebase-admin');
+const request = require('request-promise');
 
 admin.initializeApp(functions.config.firebase);
 
 const topic = 'mass';
 
-export let manageTopics = functions.database
+exports let manageTopics = functions.database
     .ref('topics/{topic}/user/{user}')
     .onWrite(async event => {
         let action = event.data.exists() ? 'batchAdd' : 'batchRemove';
