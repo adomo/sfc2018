@@ -6,7 +6,7 @@ admin.initializeApp(functions.config.firebase);
 
 const topic = 'mass';
 
-exports let manageTopics = functions.database
+export let manageTopics = functions.database
     .ref('topics/{topic}/user/{user}')
     .onWrite(async event => {
         let action = event.data.exists() ? 'batchAdd' : 'batchRemove';
